@@ -5,4 +5,4 @@ build:
 	docker build -t ${BUILD_NAME} .
 
 connect:
-	docker run -v ~/.:/workspace --rm -it ${BUILD_NAME} /bin/bash
+	docker run -v $(CURDIR):/workspace --rm -it ${BUILD_NAME} /bin/bash
