@@ -15,7 +15,7 @@ RUN config/install.sh
 ENV PATH="$PATH:/twelf-tools/bin"
 
 # Install twelf
-RUN wget http://twelf.org/releases/twelf-src-1.7.1.tar.gz
+RUN wget https://github.com/standardml/twelf/releases/download/v1.7.1/twelf-src-1.7.1.tar.gz
 RUN tar xvzf twelf-src-1.7.1.tar.gz
 # Use .el without the old style backtick
 WORKDIR /twelf-tools/twelf/emacs

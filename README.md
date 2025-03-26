@@ -15,3 +15,7 @@ First run
 Next runs
 
 `make connect`
+
+## How to use within Emacs
+
+https://twelf.org/wiki/twelf-with-emacs/
